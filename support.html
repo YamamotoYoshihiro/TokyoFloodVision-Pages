@@ -4,79 +4,131 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>どこでもお天気マップ | サポート</title>
-  <meta name="description" content="どこでもお天気マップの公式サポートページです。問い合わせ方法、よくある質問、トラブル時の対処方法を掲載しています。" />
+  <meta name="description" content="どこでもお天気マップのサポートページです。お問い合わせ方法、基本の使い方、よくある質問、不具合時の対処方法を掲載しています。" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <header class="site-header">
-    <h1>どこでもお天気マップ</h1>
-    <nav>
-      <a href="index.html">トップ</a>
-      <a href="support.html" aria-current="page">サポート</a>
-      <a href="privacy.html">プライバシーポリシー</a>
-    </nav>
+    <div class="header-inner">
+      <a class="brand" href="index.html" aria-label="どこでもお天気マップ トップ">
+        <span class="brand-icon" aria-hidden="true">W</span>
+        <span>どこでもお天気マップ</span>
+      </a>
+      <nav aria-label="主要メニュー">
+        <a href="index.html">トップ</a>
+        <a href="support.html" aria-current="page">サポート</a>
+        <a href="privacy.html">プライバシーポリシー</a>
+      </nav>
+    </div>
   </header>
 
-  <main class="container">
-    <h2>サポートセンター</h2>
-    <p>
-      ご不便をおかけして申し訳ありません。こちらのページでは、
-      お問い合わせ方法・よくある質問・不具合時の対処手順をご案内しています。
-    </p>
-
-    <section>
-      <h3>1. お問い合わせ</h3>
-      <p>不具合報告・改善要望・機能に関する質問は、下記宛先までご連絡ください。</p>
-      <p><a href="mailto:support@example.com">support@example.com</a></p>
-      <ul>
-        <li>件名例：「どこでもお天気マップ サポート依頼」</li>
-        <li>返信目安：3営業日以内</li>
-        <li>対応時間：平日 10:00〜17:00（日本時間）</li>
-      </ul>
-      <p class="note">※ 実運用時は正式なサポート窓口情報に差し替えてください。</p>
+  <main class="container page">
+    <section class="page-head">
+      <p class="eyebrow">Support</p>
+      <h1>どこでもお天気マップ サポート</h1>
+      <p>
+        使い方、不具合時の確認事項、お問い合わせ方法をまとめています。
+        ご質問・不具合報告・改善要望がある場合は、下記の連絡方法からお問い合わせください。
+      </p>
+      <div class="hero-actions compact">
+        <a class="button primary" href="mailto:yamato.shiro.sign@gmail.com?subject=%E3%81%A9%E3%81%93%E3%81%A7%E3%82%82%E3%81%8A%E5%A4%A9%E6%B0%97%E3%83%9E%E3%83%83%E3%83%97%20%E3%82%B5%E3%83%9D%E3%83%BC%E3%83%88%E4%BE%9D%E9%A0%BC">メールで問い合わせる</a>
+        <a class="button secondary" href="privacy.html">プライバシーポリシー</a>
+      </div>
     </section>
 
-    <section>
-      <h3>2. 問い合わせ時に送っていただきたい情報</h3>
+    <section class="card-section">
+      <h2>1. お問い合わせ</h2>
+      <p>不具合報告・ご質問・機能要望は、以下のメールアドレスまでご連絡ください。</p>
+      <p class="contact-line"><a href="mailto:yamato.shiro.sign@gmail.com">yamato.shiro.sign@gmail.com</a></p>
       <ul>
-        <li>アプリバージョン</li>
-        <li>ご利用端末（iPhone / iPad など）とOSバージョン</li>
-        <li>発生した日時と場所（おおよそで可）</li>
-        <li>問題の内容（画面表示・操作手順・エラーメッセージ）</li>
+        <li>件名例：どこでもお天気マップ サポート依頼</li>
+        <li>返信目安：1〜3営業日</li>
+        <li>内容により、確認や回答に時間がかかる場合があります。</li>
       </ul>
-      <p>情報が揃っていると、原因調査と回答が早くなります。</p>
     </section>
 
-    <section>
-      <h3>3. よくある質問（FAQ）</h3>
+    <section class="card-section">
+      <h2>2. 不具合報告時に送っていただきたい情報</h2>
+      <p>原因調査のため、可能な範囲で以下の情報をご記載ください。</p>
+      <ul>
+        <li>発生日時</li>
+        <li>ご利用端末（iPhone / iPad など）</li>
+        <li>iOSまたはiPadOSのバージョン</li>
+        <li>アプリのバージョン</li>
+        <li>発生した画面、操作手順</li>
+        <li>期待した結果と、実際に起きた内容</li>
+        <li>エラーメッセージ、スクリーンショット、画面録画など</li>
+      </ul>
+    </section>
 
-      <h4>Q. 広告は表示されますか？</h4>
-      <p>A. いいえ。現在のバージョンでは広告表示を削除しています。</p>
-
-      <h4>Q. サブスクリプションプランはありますか？</h4>
-      <p>A. ありません。広告削除に伴い、サブスクリプションプランも廃止しました。</p>
-
-      <h4>Q. 天気データが更新されません。</h4>
-      <p>A. 以下の順にご確認ください。</p>
+    <section class="card-section">
+      <h2>3. 基本の使い方</h2>
+      <h3>地図から天気を確認する</h3>
       <ol>
-        <li>通信環境（Wi‑Fi / モバイル通信）が利用可能か確認する</li>
-        <li>アプリを一度終了して再起動する</li>
-        <li>端末を再起動する</li>
-        <li>改善しない場合は、上記情報を添えてサポートへ連絡する</li>
+        <li>アプリを開きます。</li>
+        <li>天気を確認したい場所を地図上で選びます。</li>
+        <li>選択した地点の天気情報を確認します。</li>
       </ol>
 
-      <h4>Q. 現在地が正しく表示されません。</h4>
-      <p>A. 端末の「設定」→「位置情報」から、本アプリの位置情報利用を許可してください。</p>
+      <h3>地点を保存する</h3>
+      <ol>
+        <li>天気を確認したい地点を選びます。</li>
+        <li>ピンとして保存します。</li>
+        <li>必要に応じてラベルを編集します。</li>
+      </ol>
+
+      <h3>お気に入り地点を確認する</h3>
+      <ol>
+        <li>お気に入り画面を開きます。</li>
+        <li>保存済みの地点一覧を確認します。</li>
+        <li>確認したい地点を選び、天気情報を表示します。</li>
+      </ol>
     </section>
 
-    <section>
-      <h3>4. サービス提供方針</h3>
-      <ul>
-        <li>本アプリは広告表示を行いません。</li>
-        <li>サブスクリプションプランは提供していません。</li>
-        <li>すべてのユーザーに同じ機能を提供します。</li>
-      </ul>
+    <section class="card-section">
+      <h2>4. よくある質問</h2>
+
+      <h3>Q. 天気データが更新されません。</h3>
+      <p>A. 以下の順にご確認ください。</p>
+      <ol>
+        <li>Wi-Fiまたはモバイル通信が利用できるか確認する</li>
+        <li>アプリを一度終了して再起動する</li>
+        <li>端末を再起動する</li>
+        <li>時間をおいて再度確認する</li>
+      </ol>
+      <p>改善しない場合は、発生日時、地点、端末情報を添えてお問い合わせください。</p>
+
+      <h3>Q. 現在地が正しく表示されません。</h3>
+      <p>A. 端末の位置情報設定をご確認ください。</p>
+      <ol>
+        <li>端末の「設定」を開く</li>
+        <li>「プライバシーとセキュリティ」を開く</li>
+        <li>「位置情報サービス」を開く</li>
+        <li>本アプリの位置情報利用が許可されているか確認する</li>
+      </ol>
+
+      <h3>Q. ピンを保存できません。</h3>
+      <p>A. 通信環境を確認したうえで、アプリの再起動をお試しください。特定の地点だけで発生する場合は、地点名や操作手順を添えてお問い合わせください。</p>
+
+      <h3>Q. 保存した地点を削除できますか？</h3>
+      <p>A. アプリ内の地点一覧またはお気に入り画面から、不要な地点を削除できます。</p>
+
+      <h3>Q. 広告は表示されますか？</h3>
+      <p>A. 現在、本アプリでは広告表示を行っていません。</p>
+
+      <h3>Q. サブスクリプションはありますか？</h3>
+      <p>A. 現在、サブスクリプションプランは提供していません。</p>
     </section>
+
+    <section class="card-section">
+      <h2>5. データ削除について</h2>
+      <p>
+        保存した地点情報は、アプリ内の削除機能またはアプリのアンインストールにより削除できます。
+        位置情報の利用許可は、端末の設定からいつでも変更できます。
+      </p>
+    </section>
+
+    <p class="last-updated">最終更新日：2026年5月10日</p>
   </main>
 
   <footer class="site-footer">
