@@ -1,0 +1,79 @@
+:root {
+  --bg: #f7f9fc;
+  --card: #ffffff;
+  --text: #1f2937;
+  --muted: #6b7280;
+  --primary: #2563eb;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN", "Yu Gothic", "Meiryo", sans-serif;
+  color: var(--text);
+  background: var(--bg);
+  line-height: 1.7;
+}
+
+.site-header,
+.site-footer {
+  background: #fff;
+  border-bottom: 1px solid #e5e7eb;
+  padding: 1rem;
+}
+
+.site-footer {
+  border-top: 1px solid #e5e7eb;
+  border-bottom: none;
+  text-align: center;
+}
+
+h1 {
+  margin: 0 0 0.5rem;
+  font-size: 1.25rem;
+}
+
+nav {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+nav a {
+  color: var(--primary);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+nav a[aria-current="page"] {
+  text-decoration: underline;
+}
+
+.container {
+  max-width: 860px;
+  margin: 1.5rem auto;
+  padding: 0 1rem;
+}
+
+section,
+.hero {
+  background: var(--card);
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  padding: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.notice {
+  background: #eff6ff;
+  border-left: 4px solid var(--primary);
+  padding: 0.8rem;
+}
+
+.note {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
