@@ -214,6 +214,10 @@ ol {
   padding: 2.6rem 1rem 0;
 }
 
+main > .section:last-of-type {
+  padding-bottom: 3rem;
+}
+
 .section-title {
   max-width: 720px;
   margin-bottom: 1.2rem;
